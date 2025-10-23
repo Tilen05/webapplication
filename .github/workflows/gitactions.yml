@@ -34,4 +34,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: tilen7/webapplication5:latest
+          tags: tilen7/webapplication5:latest, tilen7/webapplication5:${{ github.sha }}
